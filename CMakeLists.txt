@@ -8,6 +8,8 @@ find_package(catkin REQUIRED
     std_msgs
     geometry_msgs
     vision_msgs
+    tmc_placement_area_detector
+    table_plane_extractor
 )
 
 ## Generate messages in the 'msg' folder
@@ -27,6 +29,8 @@ add_message_files(
 add_action_files(
   FILES
   FindGrasppoint.action
+  ExecuteGrasp.action
+  Place.action
 )
 
 # Generate added messages and services with any dependencies listed here
@@ -36,6 +40,8 @@ generate_messages(
   actionlib_msgs
   geometry_msgs
   vision_msgs
+  tmc_placement_area_detector
+  table_plane_extractor
 )
 
 catkin_package()

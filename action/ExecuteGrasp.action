@@ -1,0 +1,5 @@
+# Define the goal
+geometry_msgs/PoseStamped[] grasp_poses
+string grasp_object_name
+---
+---
