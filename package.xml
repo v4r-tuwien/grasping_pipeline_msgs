@@ -18,7 +18,7 @@
   <build_depend>geometry_msgs</build_depend>
   <build_depend>action_lib_msgs</build_depend>
   <depend>action_lib</depend>
-  <build_depend>table_plane_extractor</build_depend>
+  <build_depend>object_detector_msgs</build_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
