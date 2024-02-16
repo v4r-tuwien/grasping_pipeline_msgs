@@ -1,6 +1,8 @@
 # Define the goal
+string object_to_grasp # name of the object to grasp
 ---
 # Define the result
 geometry_msgs/PoseStamped[] grasp_poses # list of possible grasp poses for grasp object
 grasping_pipeline_msgs/BoundingBox3DStamped grasp_object_bb
+string grasp_object_name
 ---
