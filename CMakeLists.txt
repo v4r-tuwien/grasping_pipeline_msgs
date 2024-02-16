@@ -9,7 +9,7 @@ find_package(catkin REQUIRED
     geometry_msgs
     vision_msgs
     tmc_placement_area_detector
-    table_plane_extractor
+    object_detector_msgs
 )
 
 ## Generate messages in the 'msg' folder
@@ -41,7 +41,7 @@ generate_messages(
   geometry_msgs
   vision_msgs
   tmc_placement_area_detector
-  table_plane_extractor
+  object_detector_msgs
 )
 
 catkin_package()
