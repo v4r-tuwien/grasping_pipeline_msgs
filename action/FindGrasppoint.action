@@ -1,5 +1,8 @@
 # Define the goal
 string object_to_grasp # name of the object to grasp
+geometry_msgs/Pose[] object_poses
+sensor_msgs/Image depth
+string[] class_names
 ---
 # Define the result
 geometry_msgs/PoseStamped[] grasp_poses # list of possible grasp poses for grasp object
