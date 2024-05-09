@@ -1,5 +1,5 @@
 BoundingBox3DStamped placement_area_bb
-object_detector_msgs/Plane[] table_plane_equations
+Plane[] table_plane_equations
 vision_msgs/BoundingBox3DArray table_bbs
 geometry_msgs/Transform placement_surface_to_wrist # Placement surface for the object in EEF frame (hand_palm_link for sasha)
 ---

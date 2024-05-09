@@ -8,22 +8,20 @@ find_package(catkin REQUIRED
     std_msgs
     geometry_msgs
     vision_msgs
-    tmc_placement_area_detector
-    object_detector_msgs
 )
 
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
   BoundingBox3DStamped.msg
+  Plane.msg
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  CallPoseEstimator.srv
+)
 
 # Generate actions in the 'action' folder
 add_action_files(
@@ -40,8 +38,6 @@ generate_messages(
   actionlib_msgs
   geometry_msgs
   vision_msgs
-  tmc_placement_area_detector
-  object_detector_msgs
 )
 
 catkin_package()

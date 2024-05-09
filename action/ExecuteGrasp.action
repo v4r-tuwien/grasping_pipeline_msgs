@@ -1,7 +1,7 @@
 # Define the goal
 geometry_msgs/PoseStamped[] grasp_poses
 string grasp_object_name_moveit
-object_detector_msgs/Plane[] table_plane_equations
+Plane[] table_plane_equations
 ---
 geometry_msgs/Transform placement_surface_to_wrist # Placement surface for the object in EEF frame (hand_palm_link for sasha)
 ---
