@@ -1,0 +1,10 @@
+sensor_msgs/Image rgb
+sensor_msgs/Image depth
+sensor_msgs/RegionOfInterest[] bb_detections
+sensor_msgs/Image[] mask_detections
+string[] class_names
+string object_to_grasp
+---
+geometry_msgs/PoseStamped[] grasp_poses # list of possible grasp poses for grasp object
+grasping_pipeline_msgs/BoundingBox3DStamped grasp_object_bb
+string grasp_object_name

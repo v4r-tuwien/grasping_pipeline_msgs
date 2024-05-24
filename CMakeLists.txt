@@ -5,8 +5,8 @@ find_package(catkin REQUIRED
     genmsg 
     actionlib
     actionlib_msgs
-    std_msgs
     geometry_msgs
+    std_msgs
     vision_msgs
 )
 
@@ -20,26 +20,27 @@ add_message_files(
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
-  FetchImages.srv
+  CallDirectGraspPoseEstimator.srv
   CallObjectDetector.srv
   CallPoseEstimator.srv
+  FetchImages.srv
   VisualizePoseEstimation.srv
 )
 
 # Generate actions in the 'action' folder
 add_action_files(
   FILES
-  FindGrasppoint.action
   ExecuteGrasp.action
+  FindGrasppoint.action
   Place.action
 )
 
 # Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
-  std_msgs 
   actionlib_msgs
   geometry_msgs
+  std_msgs 
   vision_msgs
 )
 
