@@ -1,0 +1,5 @@
+# Define the goal
+geometry_msgs/PoseStamped object_pose
+string object_name
+---
+---

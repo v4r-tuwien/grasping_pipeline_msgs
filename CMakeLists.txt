@@ -31,6 +31,7 @@ add_action_files(
   FindGrasppoint.action
   ExecuteGrasp.action
   Place.action
+  VOSVSGrasp.action
 )
 
 # Generate added messages and services with any dependencies listed here
