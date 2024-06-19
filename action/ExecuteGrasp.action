@@ -4,4 +4,5 @@ string grasp_object_name_moveit
 Plane[] table_plane_equations
 ---
 geometry_msgs/Transform placement_surface_to_wrist # Placement surface for the object in EEF frame (hand_palm_link for sasha)
+bool top_grasp # True if the grasp is a top grasp, False otherwise
 ---
